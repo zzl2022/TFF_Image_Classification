@@ -4,7 +4,7 @@ X-ray image classification based on TensorFlow Federated for COVID-19 identifica
 基于 TensorFlow Federated 的 X 射线图像分类用于 COVID-19 识别
 
 数据集：
-COVID-19胸部X射线图像数据库包含有1200个COVID-19阳性图像，1341正常图像和1345病毒性肺炎图像。减压下载好的zip压缩包，将 "COVID-19 Radiography Database" 文件夹放在到项目文件夹下。数据集链接：https://www.heywhale.com/mw/dataset/6027caee891f960015c863d7
+COVID-19胸部X射线图像数据库包含有1200个COVID-19阳性图像，1341正常图像和1345病毒性肺炎图像。减压下载好的zip压缩包，将 "COVID-19 Radiography Database" 文件夹放在项目文件夹下。数据集链接：https://www.heywhale.com/mw/dataset/6027caee891f960015c863d7
 
 执行步骤：
 首先，运行 DatasetPreprocess.py 文件，是将原始数据集分割为多个子数据集以模拟不同的客户端拥有不同的本地数据。此文件运行结束后产生新的数据集文件夹，以供接下来的联邦学习使用。
